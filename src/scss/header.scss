@@ -1,0 +1,47 @@
+.header {
+margin-top: 25px;
+    &__body {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &__input {
+        background: #C4C4C4;
+        border: none;
+        width: 161px;
+        height: 40px;
+    }
+}
+
+.menu {
+    display: flex;
+
+    &__list {
+        display: flex;
+        align-items: center;
+
+        &-item {
+            padding-right: 45px;
+        }
+
+        &-link {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: $main_text;
+        }
+    }
+
+    &__btn {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}

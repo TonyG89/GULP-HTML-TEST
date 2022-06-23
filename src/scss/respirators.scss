@@ -1,0 +1,249 @@
+.respirators {
+    &__blocks {
+        padding-top: 130px;
+    }
+
+    &__block {
+        display: flex;
+        padding-bottom: 90px;
+
+        &-mini {
+            display: flex;
+
+        }
+    }
+
+    &__contact {
+        display: flex;
+        padding-top: 35px;
+        // justify-content: center;
+        align-content: center;
+    }
+
+    &__icon {
+        color: rgb(255, 255, 255);
+        background-color: $main_text3;
+        border-radius: 50px;
+        transform: rotate(270deg);
+        width: 40px;
+        height: 40px;
+        justify-items: center;
+        margin: 5px 10px;
+
+        & i {
+            position: relative;
+            top: 30%;
+            left: 30%;
+        }
+    }
+
+    &__tel {
+        display: flex;
+    }
+
+    &__empty {
+        width: 50%;
+    }
+}
+
+.block {
+
+    &__left {
+        width: 50%;
+        height: 100%;
+
+        &-bg {
+            background: url(../img/factory.png) no-repeat;
+            height: 600px;
+            display: flex;
+        }
+    }
+
+    &__right {
+        padding-left: 45px;
+        width: 50%;
+
+        &-mini {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-content: center;
+        }
+
+        &-tittle {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 50px;
+            color: $title_text;
+        }
+
+        &-text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            color: $main_text
+        }
+
+        &-top {
+            display: flex;
+            flex-grow: 1;
+
+        }
+
+        &-down {
+            display: flex;
+            flex-direction: column;
+            background-color: $main_text2;
+            padding: 40px;
+            flex-grow: 1;
+            border-radius: 0 0 20px 0;
+
+        }
+    }
+}
+
+
+
+.blue {
+    &-block {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: white;
+        background-color: $main_text3;
+        align-self: flex-end;
+        width: 50%;
+        padding: 50px 30px;
+
+    }
+}
+
+.top {
+    &-left {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        background-color: #fff;
+        padding: 80px 30px;
+    }
+
+
+    &-right {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: white;
+        padding: 80px 30px;
+        background-color: $main_text3;
+        border-radius: 0 20px 0 0;
+
+    }
+}
+
+.el1 {
+    order: 1;
+    padding-right: 45px;
+    padding-left: 0;
+}
+
+.el2 {
+    order: 2;
+}
+
+.sblock {
+    &__tittle {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
+        color: $title_text;
+    }
+
+    color:$title_text;
+
+    &__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: black;
+    }
+}
+
+.btn {
+    &__yellow {
+        color: $main_text3;
+        border: 1px solid $main_text3;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+.int {
+    height: 45px;
+    width: 1px;
+    background-color: white;
+    margin: 0 40px;
+}
+
+
+.contus {
+    &__text {
+        color: $main_text3;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    &__tel {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: #000;
+    }
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 80px;
+
+    &__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        padding-right: 15px;
+        align-items: center;
+        color: $main_text
+    }
+
+    &__int {
+        background-color: $main_text2;
+        width: 150px;
+        height: 1px;
+        margin-right: 90px;
+    }
+}
+
+.logos_logo {
+    padding-right: 100px;
+}

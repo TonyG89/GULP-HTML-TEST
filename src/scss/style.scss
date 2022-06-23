@@ -1,0 +1,29 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+
+    @font-face {
+        font-family: $font_name;
+        font-display: swap;
+        src: url("../fonts/#{$file_name}.woff") format("woff"),
+        url("../fonts/#{$file_name}.woff2") format("woff2");
+        font-weight: #{$weight};
+        font-style: #{$style};
+    }
+}
+
+//colors
+$main_text: #575C74;
+$main_text2: #FFB800;
+$main_text3: #1B5FC1;
+$title_text: #0C122D;
+
+//test
+$line: 2px solid red ;
+
+@import 'fonts';
+@import 'global';
+@import 'reset';
+@import 'header';
+@import 'protect';
+@import 'respirators';
+@import 'reasons';
+
