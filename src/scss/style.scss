@@ -16,8 +16,16 @@ $main_text2: #FFB800;
 $main_text3: #1B5FC1;
 $title_text: #0C122D;
 
-//test
-$line: 2px solid red ;
+//brakpoint
+
+$braekpoint_xxl: 10px; 
+$braekpoint_xl:  (min-width:777px);
+$braekpoint_md:  10px;
+$braekpoint_sm:  10px;
+$braekpoint_xsm: 10px;
+
+
+
 
 @import 'fonts';
 @import 'global';
@@ -26,4 +34,9 @@ $line: 2px solid red ;
 @import 'protect';
 @import 'respirators';
 @import 'reasons';
+@import 'comments';
+@import 'shopping';
+@import 'footer';
+@import 'bg';
+@import 'breakpoints';
 

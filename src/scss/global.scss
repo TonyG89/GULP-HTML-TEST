@@ -11,37 +11,26 @@ header {
 }
 
 .wrapper {
-    background-color:#6d80d4ea;
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    border: $line;
     font-family: 'Open Sans';
     font-style: normal;
-    
-}
-.bg{
-    position: absolute;
-    left: 51%;
-    // zoom: 150%;
-    z-index:-1;
-    opacity: 20%;
-    & img{
-        border-radius: 0 0 0 150px;
-    }
+
 }
 
-.row{
+.row {
     display: flex;
 }
+
 .main {
     flex: 1 0 auto;
 }
 
-.btn{
+.btn {
     background: #1B5FC1;
     padding: 10px 25px;
-    color:white;
+    color: white;
     border-radius: 8px;
     border: none;
     font-family: 'Rubik';
@@ -114,6 +103,4 @@ h3 {
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 5px;
-    border: $line;
 }
-

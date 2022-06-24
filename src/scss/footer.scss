@@ -1,0 +1,115 @@
+.footer {
+    &__bottom{
+        padding: 70px 0;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__row {   
+        min-width: 100px;
+        padding-right: 350px;
+        &:last-child{
+            padding-right: 0;
+        }
+             }
+    &__tittle {
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color:$title_text;
+padding-bottom: 10px;
+    }
+}
+.yellow {
+    background-color: $main_text2;
+    &__footer {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__row {
+        padding: 40px 0;
+        
+    }
+}
+.footer {
+    &__tel {
+        display: flex;
+    }
+    &__icon {
+        color:$main_text3;
+padding-right: 10px;
+        font-size:2rem;
+        &__bottom{
+
+        }
+    }
+
+}
+.bi {
+
+    &-geo {}
+    &-telephone {}
+    &-envelope {}
+    &-facebook {}
+    &-twitter {}
+    &-google {}
+    &-youtube {}
+    &-linkedin {}
+}
+.contus {
+    &__text {
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color:$title_text;
+    }
+    &__tel {
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color:$title_text;
+    }
+}
+.int {
+}
+.header {
+    &__input {}
+}
+.text {
+    padding-top: 30px;
+}
+footer{
+    &__list{
+    display: flex;
+}
+}
+.active-footer {
+    color:$main_text3;
+}
+.soc {
+    padding-top: 10px;
+    display: flex;
+    align-content: center;
+    &__icon {padding-right: 15px;
+    color:$main_text3;
+align-self: center;
+font-size: 1.2rem;
+}
+    &__name {font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;}
+}
+.copyright {
+    text-align: center;
+    padding: 30px;
+}

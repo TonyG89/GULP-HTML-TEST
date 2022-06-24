@@ -1,0 +1,70 @@
+.reasons {
+    &__blocks {
+        padding-top: 100px;
+    }
+
+    &__text {
+        font-weight: 400;
+        padding-top: 20px;
+    }
+}
+
+.block {
+    width: 50%;
+
+    &__left {}
+
+    &__right {
+        width: 70%;
+
+        &__tittle {}
+
+        &-text {}
+    }
+
+    &__img {}
+}
+
+.block {
+    padding: 0;
+    &__img {}
+
+    &__row {}
+
+    &__tittle {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: $title_text
+    }
+
+    &__text {}
+}
+
+.miniblocks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.icons {
+    &-blue {    color: #fff;
+        border-radius: 50%;
+        background-color: $main_text3;
+        width: 45px;
+        height: 45px;
+        margin: 8px;
+        & img{
+            filter: invert(100%); width:30px;
+            padding-left: 3px;
+            padding-top: 1px;
+        }
+    }
+        
+}
+
+.bi {
+align-items:center;
+}

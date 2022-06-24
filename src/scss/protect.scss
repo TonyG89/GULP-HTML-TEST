@@ -2,10 +2,11 @@
     &__main {
         padding-top: 70px;
         display: flex;
+        flex-wrap: wrap;
         justify-content:space-between;
         width: 100%;
-        border: $line;
         align-items: center;
+        padding-bottom: 70px;
     }
 
     &__text {
@@ -77,6 +78,7 @@
 
 .blocks {
     display: flex;
+    
     width: 100%;
 }
 

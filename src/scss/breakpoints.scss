@@ -1,0 +1,39 @@
+@media (max-width:1400px) {
+
+}
+@media screen and (max-width:1100px){
+ .block__left-bg{
+    height: 591px;
+ }
+}
+
+@media screen and (max-width:1002px) {
+    .blocks {
+    flex-wrap:wrap;
+    }
+    .protect__text{
+        max-width:1000px;
+        padding-bottom: 20px;
+    }
+    .photo{
+        max-width: 1000px;
+    }
+    .bg img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1026px){
+    .block__right-mini{
+        height: 569px;
+    }
+}
+
+@media screen and (max-width:290px){
+    .respirators__block-mini{
+        flex-wrap: wrap;
+    }
+    .block__right-mini{
+        height: none;
+    }
+}
