@@ -51,10 +51,6 @@ a {
         &:visited {}
     }
 
-    &:hover {
-        border-bottom: 2px solid $main_text3;
-    }
-
     &.active {
         color: #0C122D;
     }

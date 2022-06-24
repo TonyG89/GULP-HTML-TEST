@@ -43,8 +43,8 @@ let {
   uglify = require('gulp-uglify-es').default,
   babel = require('gulp-babel'),
   // imagemin = require('gulp-imagemin'),
-  // webp = require('gulp-webp'),  // вкл
-  // webpHTML = require('gulp-webp-html'), // вкл
+  webp = require('gulp-webp'),  
+  webpHTML = require('gulp-webp-html'), 
   // webpcss = require("gulp-webpcss"),
   ttf2woff = require('gulp-ttf2woff'),
   ttf2woff2 = require('gulp-ttf2woff2'),
@@ -94,9 +94,9 @@ function watchFiles(params) {
 
 function images() {
   return src(path.src.img)
-    // .pipe(webp({
-    //   quality: 70                  // вкл
-    // })) 
+    .pipe(webp({
+      quality: 70                  
+    })) 
     .pipe(dest(path.build.img))
     .pipe(src(path.src.img))
     // .pipe(imagemin({
@@ -129,7 +129,7 @@ gulp.task('otf2ttf', function () {
 function html() {
   return src(path.src.html)
     .pipe(fileinclude())
-    // .pipe(webpHTML()) // вкл
+    .pipe(webpHTML()) 
     .pipe(dest(path.build.html))
     .pipe(browsersync.stream())
 }
@@ -152,7 +152,7 @@ function js() {
 }
 
 function clean(params) {
-  // return del(path.clean)
+  return del(path.clean)
 }
 
 function css() {

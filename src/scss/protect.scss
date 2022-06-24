@@ -2,8 +2,7 @@
     &__main {
         padding-top: 70px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content:space-between;
+        justify-content: space-between;
         width: 100%;
         align-items: center;
         padding-bottom: 70px;
@@ -12,12 +11,7 @@
     &__text {
         width: 50%;
     }
-
-    &__photo {
-
-    }
 }
-
 
 .accent {
     font-family: 'Rubik';
@@ -26,7 +20,6 @@
     font-size: 14px;
     line-height: 30px;
     color: $main_text2;
-
 }
 
 .title {
@@ -78,7 +71,6 @@
 
 .blocks {
     display: flex;
-    
     width: 100%;
 }
 
@@ -100,8 +92,6 @@
         padding: 7px;
         padding-right: 18px;
     }
-
-    &__row {}
 
     &__text {
         font-family: 'Open Sans';

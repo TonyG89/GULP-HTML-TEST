@@ -16,17 +16,6 @@ $main_text2: #FFB800;
 $main_text3: #1B5FC1;
 $title_text: #0C122D;
 
-//brakpoint
-
-$braekpoint_xxl: 10px; 
-$braekpoint_xl:  (min-width:777px);
-$braekpoint_md:  10px;
-$braekpoint_sm:  10px;
-$braekpoint_xsm: 10px;
-
-
-
-
 @import 'fonts';
 @import 'global';
 @import 'reset';
@@ -39,4 +28,3 @@ $braekpoint_xsm: 10px;
 @import 'footer';
 @import 'bg';
 @import 'breakpoints';
-
